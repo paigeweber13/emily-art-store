@@ -30,5 +30,9 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
+### My stuff
 # Ignore image assets: these are the property of Emily
 /app/assets/images
+
+# Ignore reference provided by emily
+reference
