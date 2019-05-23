@@ -10,7 +10,11 @@
  - [ ] plan site layout, user flow
 
 ## Plan:
- * 5-23: look deeper at payment platforms, tutorials, plan architecture
+ * 5-23: 
+   * look deeper at payment platforms, tutorials, plan architecture
+   * Do I want spree? Or my own in-house thing?
+   * Also, ask em if she has a preference: I build everything from the 
+     ground up or we use something like spree and try to extend it.
  * 5-24: rapid fire through some tutorials? Or just skip to building Em's
  * 5-25: customize it for Em
 
