@@ -9,6 +9,11 @@
  - [ ] product page
  - [ ] plan site layout, user flow
 
+## Plan:
+ * 5-23: look deeper at payment platforms, tutorials, plan architecture
+ * 5-24: rapid fire through some tutorials? Or just skip to building Em's
+ * 5-25: customize it for Em
+
 ## Log of What's been done:
  - 2019-05-15:
    - read a lot of the spree commerce documentation. Looking through
