@@ -4,22 +4,19 @@
  - [x] choose tools
  - [ ] learn to use tools
  - [ ] basic homepage with dummy products and custom styling
+   - (this means working sass, bootstrap, and maybe a gem for payments)
 
 ## Stretch:
  - [ ] product page
  - [ ] plan site layout, user flow
+ - [ ] create architecture diagram
 
 ## Plan:
- * 5-23: 
-   * look deeper at payment platforms, tutorials, plan architecture
-   * Do I want spree? Or my own in-house thing?
-   * Also, ask em if she has a preference: I build everything from the 
-     ground up or we use something like spree and try to extend it.
- * 5-24: rapid fire through some tutorials? Or just skip to building Em's
- * 5-25: customize it for Em
+ * 5-25: take Em's basic site and make it a rails app, get boostrap/sass
+   working
+ * 5-25 or 5-26: decide on a shopping cart/ecommerce gem, if any.
 
 # Icebox
- - [ ] create architecture diagram
 
 # Log of What's been done:
  - 2019-05-15:
