@@ -1,7 +1,7 @@
 # Sprint 1
 ## Target Release Date: 2019-05-26
 ## Goals:
- - [ ] choose tools
+ - [x] choose tools
  - [ ] learn to use tools
  - [ ] basic homepage with dummy products and custom styling
 
@@ -18,7 +18,10 @@
  * 5-24: rapid fire through some tutorials? Or just skip to building Em's
  * 5-25: customize it for Em
 
-## Log of What's been done:
+# Icebox
+ - [ ] create architecture diagram
+
+# Log of What's been done:
  - 2019-05-15:
    - read a lot of the spree commerce documentation. Looking through
      the generated source code and trying to decide if I'm going to edit the
@@ -27,3 +30,6 @@
    - found some good resources with which to move forward, mainly:
      - [Spree view customizatoin](https://guides.spreecommerce.org/developer/customization/view.html)
      - [Spree preferences](https://guides.spreecommerce.org/developer/core/preferences.html#configuring-spree-preferences)
+ - 2019-05-24
+   - spent a lot of time planning how this is going to work
+   - decided to create own solution from (basically) scratch
