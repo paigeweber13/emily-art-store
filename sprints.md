@@ -25,7 +25,7 @@
      sample site or create something from scratch. Leaning towards editing the
      sample site; so much of the work is already done for me!
    - found some good resources with which to move forward, mainly:
-     - [Spree view customizatoin](https://guides.spreecommerce.org/developer/customization/view.html)
+     - [Spree view customization](https://guides.spreecommerce.org/developer/customization/view.html)
      - [Spree preferences](https://guides.spreecommerce.org/developer/core/preferences.html#configuring-spree-preferences)
  - 2019-05-24
    - spent a lot of time planning how this is going to work
