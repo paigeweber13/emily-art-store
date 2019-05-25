@@ -1,5 +1,6 @@
 # Emily's Art Store
-A store and portfolio for Emily Coulter to showcase her art.
+A store and portfolio for Emily Coulter to showcase her art. **Releases Every
+Sunday**
 
 ## Dependencies:
  * Ruby 2.6.0
