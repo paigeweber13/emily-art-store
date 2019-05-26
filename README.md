@@ -4,8 +4,7 @@ Sunday**
 
 # Dependencies:
  * Ruby 2.6.0
- * Devise secret key set in the environment variable
-   "DEVISE_TOKEN_AUTH_SECRET_KEY"
+ * Boostrap and sass for styling
 
 # License:
 Currently deciding on a license. Until then, all work is the sole intellectual
