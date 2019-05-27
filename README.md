@@ -3,7 +3,7 @@ A store and portfolio for Emily Coulter to showcase her art. **Releases Every
 Sunday**
 
 # How to start the server
- * type `bundle install && bundle exec rails s` in the terminal.
+ * type `bundle install ; bundle exec rails s` in the terminal.
  * open the page `localhost:3000` in your browser
 
 # Dependencies:
