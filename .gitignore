@@ -32,10 +32,10 @@
 
 ### My stuff
 # Ignore image assets: these are the property of Emily
-/app/assets/images
+/public/images
 
 # Ignoring fonts for now, may add later
-/app/assets/fonts
+/public/fonts
 
 # Ignore reference provided by emily
 reference
