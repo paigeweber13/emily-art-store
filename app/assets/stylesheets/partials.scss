@@ -1,0 +1,35 @@
+// nabvar
+#logo {
+  margin: auto;
+}
+
+.sidenav {
+  z-index:5;
+  width:auto;
+  height:auto;
+  overflow: hidden;
+}
+
+.sidenav ul {
+  height:auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+.sidenav li {
+  display: block;
+  position:fixed;
+  width:116px; 
+  height:70px;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: BEYNO, sans-serif;
+  z-index:5;
+}
+
+.sidenav li.about{ left:0px; top:45%; transform: rotate(-90deg)}
+.sidenav li.work{ right:0px; top:45%; transform:rotate(90deg)}
