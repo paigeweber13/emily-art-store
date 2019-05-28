@@ -57,3 +57,21 @@ ul {
 
 .sidenav li.about{ left:0px; top:45%; transform: rotate(-90deg)}
 .sidenav li.work{ right:0px; top:45%; transform:rotate(90deg)}
+
+//footer
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-bottom: 8px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: BEYNO, sans-serif;
+}
+
+.social-media {
+  width: 48px;
+  height: 48px;
+}
