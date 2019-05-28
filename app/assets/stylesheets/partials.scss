@@ -1,5 +1,29 @@
+// Main colors:
+$red: #ff4040;
+$yellow: #ffce31;
+$green: #47feac;
+$blue: #101733;
+
+//fonts
+@font-face {
+  font-family: BEYNO;
+  src: url(Fonts/BEYNO.otf);
+}
+
+@font-face {
+  font-family: Comfortaa, monospace;
+}
+
 // nabvar
 #logo {
+  margin: auto;
+}
+
+.navhome img{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   margin: auto;
 }
 
