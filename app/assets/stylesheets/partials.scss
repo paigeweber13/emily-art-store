@@ -1,17 +1,14 @@
-// Main colors:
-$red: #ff4040;
-$yellow: #ffce31;
-$green: #47feac;
-$blue: #101733;
-
-//fonts
-@font-face {
-  font-family: BEYNO;
-  src: url(Fonts/BEYNO.otf);
+a:link,
+a:visited {
+  color: $primary;
 }
-
-@font-face {
-  font-family: Comfortaa, monospace;
+a:hover   {
+  color: white;
+  text-decoration: none;
+}
+a:active  {
+  transition: color .3s;
+  color: $primary;
 }
 
 // nabvar
