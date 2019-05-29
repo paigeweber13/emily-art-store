@@ -1,3 +1,31 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+//Carousel formatting
+#banner #demo.carousel.slide img{
+    width: 100%;
+    object-fit: cover;
+    max-height: 80vh;
+    max-width: none;
+    overflow: hidden;
+  }
+  
+  #demo .carousel-indicators {
+    margin-bottom: 20px;
+  }
+  
+  .container #myCarousel .carousel slide {
+    object-position: bottom
+  }
+//for pixel art
+.pixelated {
+    image-rendering:optimizeSpeed; /* Legal fallback */
+    image-rendering:-moz-crisp-edges; /* Firefox */
+    image-rendering:-o-crisp-edges; /* Opera */
+    image-rendering:-webkit-optimize-contrast; /* Safari */
+    image-rendering: optimize-contrast; /* CSS3 Proposed */
+    image-rendering: crisp-edges; /* CSS4 Proposed */
+    image-rendering: pixelated; /* CSS4 Proposed */
+    -ms-interpolation-mode:nearest-neighbor; /* IE8+ */
+  }
