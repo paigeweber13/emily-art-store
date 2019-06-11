@@ -3,21 +3,27 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 //Carousel formatting
+@media only screen and (max-width: 600px) {
+  #banner {
+      display: none;
+  }
+}
+
 #banner #demo.carousel.slide img{
     width: 100%;
     object-fit: cover;
     max-height: 80vh;
     max-width: none;
     overflow: hidden;
-  }
+}
   
-  #demo .carousel-indicators {
+#demo .carousel-indicators {
     margin-bottom: 20px;
-  }
+}
   
-  .container #myCarousel .carousel slide {
+.container #myCarousel .carousel slide {
     object-position: bottom
-  }
+}
 //for pixel art
 .pixelated {
     image-rendering:optimizeSpeed; /* Legal fallback */
