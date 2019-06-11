@@ -1,6 +1,7 @@
 @font-face {
   font-family: BEYNO;
-  src: url(fonts/BEYNO.otf);
+  src:font-url('BEYNO.otf') format('opentype');
+  src:font-url('BEYNO.ttf') format('truetype')
 }
 
 @font-face {
