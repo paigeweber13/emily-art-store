@@ -35,3 +35,117 @@
     image-rendering: pixelated; /* CSS4 Proposed */
     -ms-interpolation-mode:nearest-neighbor; /* IE8+ */
   }
+
+  //store page gallery
+  .grid-item {
+    overflow: hidden;
+  }
+  
+  .grid-item figure {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0px;
+  }
+  
+  .grid-item figure img {
+    display: block;
+    width: 100% !important;
+    margin: 0;
+    height: 544px; /*363px, 726px*/
+    object-fit: cover;
+  }
+  
+  .grid-item figure figcaption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: $light;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.4s, opacity 1.0s 1.0s;
+    bottom: 0;
+    top:auto;
+  }
+  
+  //executes gallery background animation
+  .grid-item figure:hover figcaption {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: transform 0.5s, opacity 1s;
+    background: rgba(9,128,201,0.7);
+  }
+  
+  //gallery text formatting
+  .grid-item figure figcaption h4{
+    margin: 12px;
+    margin-top: 15%;
+    transform: translateY(20px)
+  }
+  
+  .grid-item figure figcaption h1 {
+    padding: 0 30px;
+    display: block;
+    transform: translateY(25px);
+    position:relative;
+  }
+  
+  //executes gallery text animation
+  .grid-item figure:hover figcaption h4 {
+    animation: hoverP .75s 1 forwards;
+  }
+  
+  .grid-item figure:hover figcaption h1 {
+    animation: hoverN .75s 1 forwards;
+  }
+  
+  //for responsive gallery
+  #gallery {
+    line-height: 0;
+    column-count: 1;
+    column-gap: 0;
+  }
+  
+  @media screen and (min-width: 600px) {
+    #gallery {
+      line-height: 0;
+      column-count: 2;
+      column-gap: 0;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    #gallery {
+      line-height: 0;
+      column-count: 3;
+      column-gap: 0;
+    }
+  }
+  
+  //gallery item animations
+  @-webkit-keyframes hoverP {
+    0% {opacity: 0; transform: translateY(-100px)}
+    25% {opacity: 0; transform: translateY(100px)}
+    100% {opacity: 1; transform: translateY(20px)}
+  }
+  
+  @keyframes hoverP {
+    0% {opacity: 0; transform: translateY(-100px)}
+    25% {opacity: 0; transform: translateY(100px)}
+    100% {opacity: 1; transform: translateY(20px)}
+  }
+  
+  @-webkit-keyframes hoverN {
+    0% {opacity:0; transform: translateY(-100px)}
+    50% {opacity:0; transform: translateY(100px)}
+    100% {opacity:1; transform: translateY(25px)}
+  }
+  
+  @keyframes hoverN {
+    0% {opacity:0; transform: translateY(-100px)} 50% {opacity:0; transform: translateY(100px)}
+    100% {opacity:1; transform: translateY(25px)}
+  }
