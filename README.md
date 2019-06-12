@@ -16,3 +16,8 @@ property of myself, Riley Weber, and I maintain full copyright.
 
 # Notes:
  * potential colorscheme: https://coolors.co/b34b43-ffee56-51a3a3-484a47-a6afb1
+
+# TODO:
+ - move store page in
+ - move about, contact pages in; add content to them
+ - fix footer
