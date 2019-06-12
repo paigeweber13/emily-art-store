@@ -15,7 +15,9 @@ Currently deciding on a license. Until then, all work is the sole intellectual
 property of myself, Riley Weber, and I maintain full copyright.
 
 # Notes:
- * potential colorscheme: https://coolors.co/b34b43-ffee56-51a3a3-484a47-a6afb1
+ * potential colorschemes:
+ https://coolors.co/b34b43-ffee56-51a3a3-484a47-a6afb1
+ https://coolors.co/ffffff-4eb1db-0980c9-ffb200-2c211c
 
 # TODO:
  - move store page in
