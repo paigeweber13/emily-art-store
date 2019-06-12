@@ -1,3 +1,7 @@
+body {
+  background-color: $primary;
+}
+
 a:link,
 a:visited {
   color: $primary;
@@ -11,7 +15,7 @@ a:active  {
   color: $primary;
 }
 
-// nabvar
+// nabvar home with logo
 #logo {
   margin: auto;
   z-index: 1;
@@ -25,6 +29,7 @@ a:active  {
   margin: auto;
 }
 
+//navbar side navigation
 .sidenav {
   z-index:5;
   width:auto;
