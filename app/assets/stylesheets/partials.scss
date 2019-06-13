@@ -1,5 +1,9 @@
 body {
   background-color: $primary;
+  position: relative;
+  margin: 0px;
+  min-height: 100%;
+  padding-bottom: 64px;
 }
 
 a:link,
@@ -72,6 +76,7 @@ ul {
   font-size: 2rem;
   text-transform: uppercase;
   font-family: BEYNO, sans-serif;
+  z-index: 1;
 }
 
 .social-media {
