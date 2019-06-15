@@ -1,0 +1,165 @@
+<head>
+  <title>Responsive Columns Example</title>
+  <!-- everything above this is scaffolding to get bootstrap set up -->
+  <style>
+    .col-md {
+      margin: 0 0 0 0;
+      padding: 0 0 0 0;
+    }
+
+    .grid-item {
+      width: 100%;
+      height: 30em;
+      text-align: center;
+      overflow: hidden;
+    }
+  
+    .grid-item figure {
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      margin: 0;
+    }
+    
+    .grid-item figure img {
+      display: block;
+      width: 100% !important;
+      margin: 0;
+      height: auto; /*363px, 726px*/
+      object-fit: cover;
+    }
+    
+    .grid-item figure figcaption {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      color: $light;
+      opacity: 0;
+      transform: translateY(100%);
+      transition: transform 0.4s, opacity 1.0s 1.0s;
+      bottom: 0;
+      top:auto;
+    }
+    
+    .grid-item figure:hover figcaption {
+      opacity: 1;
+      transform: translateY(0px);
+      transition: transform 0.5s, opacity 1s;
+      background: rgba(9,128,201,0.85);
+    }
+    
+    .grid-item figure figcaption h4{
+      margin: 12px;
+      margin-top: 15%;
+      transform: translateY(20px)
+    }
+    
+    .grid-item figure figcaption h1 {
+      padding: 0 30px;
+      display: block;
+      transform: translateY(25px);
+      position:relative;
+      font-family: BEYNO, sans-serif;
+    }
+    
+    .grid-item figure:hover figcaption h4 {
+      animation: hoverP .75s 1 forwards;
+    }
+    
+    .grid-item figure:hover figcaption h1 {
+      animation: hoverN .75s 1 forwards;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md">
+
+        <div class="grid-item">
+          <figure>
+            <img src="/images/beauty-queen-small.png">
+            <figcaption>
+              <h4>work in progress</h4>
+              <h1>BEAUTY QUEEN</h1>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="grid-item">
+          <figure>
+            <img src="/images/flowering.png">
+            <figcaption>
+              <h4>3D render for epoxy mold</h4>
+              <h1>FLOWERING</h1>
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+      <div class="col-md">
+
+        <div class="grid-item">
+          <figure>
+            <img src="/images/split-small.png">
+            <figcaption>
+              <h4>work in progress</h4>
+              <h1>SPLIT</h1>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="grid-item">
+          <figure>
+            <img src="/images/jupiter-small.png">
+            <figcaption>
+              <h4>work in progress</h4>
+              <h1>JUPITER</h1>
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+      <div class="col-md">
+
+      <div class="grid-item">
+      <figure>
+        <img src="/images/me-and-my-dog-small.png">
+        <figcaption>
+          <h4>work in progress</h4>
+          <h1>ME AND MY DOG</h1>
+        </figcaption>
+      </figure>
+    </div>
+
+        <div class="grid-item">
+          <figure>
+            <img src="/images/cut-small.png">
+            <figcaption>
+              <h4>work in progress</h4>
+              <h1>HIDDEN</h1>
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- everything below this is scaffolding to get bootstrap set up -->
+      
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>

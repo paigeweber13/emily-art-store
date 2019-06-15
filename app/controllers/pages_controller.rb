@@ -5,4 +5,6 @@ class PagesController < ApplicationController
   end
   def about
   end
+  def gallery_demo
+  end
 end
