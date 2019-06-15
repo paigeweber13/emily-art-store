@@ -9,7 +9,7 @@
   }
 }
 
-#banner #demo.carousel.slide img{
+#banner #demo.carousel.slide img {
     width: 100%;
     object-fit: cover;
     max-height: 80vh;
@@ -48,13 +48,13 @@
     width: 100%;
     height: 100%;
     text-align: center;
-    margin: 0px;
+    margin: 0;
   }
   
   .grid-item figure img {
     display: block;
     width: 100% !important;
-    margin: 0;
+    margin: 20px;
     height: 544px; /*363px, 726px*/
     object-fit: cover;
   }
@@ -124,6 +124,7 @@
       line-height: 0;
       column-count: 3;
       column-gap: 0;
+      background-color: red;
     }
   }
   
