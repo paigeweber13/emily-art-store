@@ -3,5 +3,4 @@ Rails.application.routes.draw do
   root to: 'pages#store'
   get 'contact', to: 'pages#contact'
   get 'about', to: 'pages#about'
-  get 'gallery_demo', to: 'pages#gallery_demo'
 end
