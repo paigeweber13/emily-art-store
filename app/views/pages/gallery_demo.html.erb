@@ -7,9 +7,17 @@
       padding: 0 0 0 0;
     }
 
+    .gallery {
+      margin: 0;
+      padding: 0;
+    }
+
+    .gallery .row {
+      margin: 0;
+    }
+
     .grid-item {
       width: 100%;
-      height: 30em;
       text-align: center;
       overflow: hidden;
     }
@@ -28,8 +36,16 @@
       display: block;
       width: 100% !important;
       margin: 0;
-      height: auto; /*363px, 726px*/
       object-fit: cover;
+      height: 544px; /*362px, 726px*/
+    }
+
+    .grid-item figure .item-small {
+      height: 362px;
+    }
+
+    .grid-item figure .item-large {
+      height: 726px;
     }
     
     .grid-item figure figcaption {
@@ -78,14 +94,14 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
 
       <div class="col-md">
 
         <div class="grid-item">
           <figure>
-            <img src="/images/beauty-queen-small.png">
+            <img src="/images/beauty-queen-small.png" class="item-large">
             <figcaption>
               <h4>work in progress</h4>
               <h1>BEAUTY QUEEN</h1>
@@ -95,7 +111,7 @@
 
         <div class="grid-item">
           <figure>
-            <img src="/images/flowering.png">
+            <img src="/images/flowering.png" class="item-small">
             <figcaption>
               <h4>3D render for epoxy mold</h4>
               <h1>FLOWERING</h1>
@@ -131,7 +147,7 @@
 
       <div class="grid-item">
       <figure>
-        <img src="/images/me-and-my-dog-small.png">
+        <img src="/images/me-and-my-dog-small.png" class="item-small">
         <figcaption>
           <h4>work in progress</h4>
           <h1>ME AND MY DOG</h1>
@@ -141,7 +157,7 @@
 
         <div class="grid-item">
           <figure>
-            <img src="/images/cut-small.png">
+            <img src="/images/cut-small.png" class="item-large">
             <figcaption>
               <h4>work in progress</h4>
               <h1>HIDDEN</h1>
