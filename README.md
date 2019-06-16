@@ -21,5 +21,14 @@ property of myself, Riley Weber, and I maintain full copyright.
 
 # TODO:
  - move store page in
+ - make subpages for store
  - move about, contact pages in; add content to them
- - fix footer
+ - create form for contact page
+ - contact about font BEYNO usage
+ - draw navigation above gallery buttons
+ - animation navigation when hovering
+
+ # How to create new pages:
+ * create page in app/assets/view/pages
+ * add controller to app/assets/controllers/pages_controller.rb
+ * add route to config/routes.rb
