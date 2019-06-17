@@ -151,3 +151,23 @@
     0% {opacity:0; transform: translateY(-100px)} 50% {opacity:0; transform: translateY(100px)}
     100% {opacity:1; transform: translateY(25px)}
   }
+
+  //about page formatting
+  .about_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  #bg {
+    display: block;
+    height: 70vh;
+    width: 70vw;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
