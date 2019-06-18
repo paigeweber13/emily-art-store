@@ -20,15 +20,19 @@ property of myself, Riley Weber, and I maintain full copyright.
  https://coolors.co/ffffff-4eb1db-0980c9-ffb200-2c211c
 
 # TODO:
- - move store page in
  - make subpages for store
- - move about, contact pages in; add content to them
- - create form for contact page
+ - add content to about, store pages
+ - create form / mailer for contact page
  - contact about font BEYNO usage
  - draw navigation above gallery buttons
  - animation navigation when hovering
+ - make navigation visible & aesthetic
+ - responsive contact (move & scale buttons)
+ - custom scroll bar
+ - social media buttons change colors when hovering
+ - responsive about ()
 
- # How to create new pages:
+# How to create new pages:
  * create page in app/assets/view/pages
  * add controller to app/assets/controllers/pages_controller.rb
  * add route to config/routes.rb
