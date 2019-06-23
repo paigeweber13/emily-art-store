@@ -19,8 +19,9 @@ a:hover   {
   color: white;
   text-decoration: none;
 }
-a:active  {
-  transition: color .3s;
+
+a  {
+  transition: color .5s;
   color: $primary;
 }
 
