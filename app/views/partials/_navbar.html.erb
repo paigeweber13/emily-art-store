@@ -15,13 +15,21 @@
       <div class="footer" style="color: #ffce31">
         <span style="background-color: black"><a href="contact.html">Contact</a> |</span>
         <a href="https://www.linkedin.com/in/emilymcoulter/" target="_blank">
-          <img src="https://image.flaticon.com/icons/svg/1384/1384014.svg" class="social-media">
+          <img src="https://image.flaticon.com/icons/svg/1384/1384014.svg" class="social-media" onmouseover="onHover(this);" onmouseout="offHover(this);"/>
         </a>
+        <script>
+          onHover = function(my_image) {
+            return my_image.src = 'http://marketing.optomausa.com/images/DS216/DS216_Back_100dpi.jpg';
+          };
+          offHover = function(my_image) {
+            return my_image.src = 'https://image.flaticon.com/icons/svg/1384/1384014.svg';
+          };
+        </script>
         <a href="https://www.tumblr.com/blog/ahlwrecku" target="_blank">
-          <img src="https://image.flaticon.com/icons/svg/69/69449.svg" class="social-media">
+          <img src="https://image.flaticon.com/icons/svg/69/69449.svg" class="social-media"/>
         </a>
         <a href="https://www.instagram.com/firefliesjr/" target="_blank">
-          <img src="https://image.flaticon.com/icons/svg/1384/1384015.svg" class="social-media">
+          <img src="https://image.flaticon.com/icons/svg/1384/1384015.svg" class="social-media"/>
         </a>
       </div>
     </footer>
