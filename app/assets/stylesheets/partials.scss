@@ -64,7 +64,7 @@ ul {
   text-align: center;
   font-size: 2.2rem;
   text-transform: uppercase;
-  font-family: BEYNO, sans-serif;
+  font-family: $title, sans-serif;
   z-index: 5;
 }
 
@@ -90,7 +90,7 @@ ul {
   padding-bottom: 8px;
   font-size: 2.2rem;
   text-transform: uppercase;
-  font-family: BEYNO, sans-serif;
+  font-family: $title, sans-serif;
   z-index: 1;
 }
 
