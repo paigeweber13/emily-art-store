@@ -11,6 +11,10 @@ body {
   padding-bottom: 64px;
 }
 
+h1 {
+  font-family: $title, sans-serif;
+}
+
 a:link,
 a:visited {
   color: $primary;
