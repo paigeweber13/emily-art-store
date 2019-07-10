@@ -6,4 +6,4 @@
     my_image.src = 'http://marketing.optomausa.com/images/DS216/DS216_Back_100dpi.jpg'
 
 @offHover = (my_image) ->
-    my_image.src = 'https://image.flaticon.com/icons/svg/1384/1384014.svg'
+    my_image.src = 'images/linkedin.svg'
