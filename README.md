@@ -20,17 +20,15 @@ property of myself, Riley Weber, and I maintain full copyright.
  https://coolors.co/ffffff-4eb1db-0980c9-ffb200-2c211c
 
 # TODO:
- - make subpages for store
- - add content to about, store pages
+ - create directory for store subpages
+ - add content to about
+ - design format for store pages
  - create form / mailer for contact page
- - contact about font BEYNO usage
  - draw navigation above gallery buttons
- - animation navigation when hovering
  - make navigation visible & aesthetic
- - responsive contact (move & scale buttons)
+ - responsive contact nav?
  - custom scroll bar
- - social media buttons change colors when hovering
- - responsive about ()
+ - responsive item page
 
 # How to create new pages:
  * create page in app/assets/view/pages
