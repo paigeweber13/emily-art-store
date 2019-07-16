@@ -1,0 +1,48 @@
+<% content_for :title, "Example subpage" %>
+
+<!--Content goals:
+Image gallery with product
+zoom over gallery to zoom within gallery window
+click gallery to expand
+image description, cost, specifications, etc
+link to return to store page-->
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                    </ol> 
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/images/flowering.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/images/flowering_top.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/images/flowering_side.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 item-info">
+                <h2>Flowering</h2>
+                <br>
+                Artistic epoxy resin cast of a vulva, filled with blacked eyed susans, roses, and magnolias.
+                <br> <br>
+                This sculpture celebrates femenine sexuality and promotes the normalization of female genetalia.
+                While you can find a crude rendition of a penis in pretty much any public high school bathroom,
+                many girls and women still aren't very familiar with their own anatomy. I was uncomfortable
+                expressing my own sexuality for a long time, and I want to be able to have more open conversations
+                about sex and sexuality. In doing so, I hope more women learn about what they do and don't like
+                and how to articulate their desires.
+            </div>
+        </div>
+    </div>
+</body>

@@ -5,6 +5,6 @@ class PagesController < ApplicationController
   end
   def about
   end
-  def ex_subpage
+  def flowering
   end
 end
